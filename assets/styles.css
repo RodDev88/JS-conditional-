@@ -1,0 +1,39 @@
+body {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    padding: 10px;
+    border-radius: 3px;
+    border: none;
+    margin: 5px;
+}
+
+button {
+    padding: 10px;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    background-color:rgb(9, 160, 241);
+    margin: 5px;
+    
+}
+
+button:hover {
+    background-color: rgb(3, 107, 168) ;
+}
+
+span {
+    padding: 10px;
+    font-weight: 400;
+}
